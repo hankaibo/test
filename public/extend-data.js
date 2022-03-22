@@ -15,23 +15,12 @@ const EXTEND_DATA = {
     },
   ],
   merges: ['C3:D4'],
-  cols: {
-    len: 10,
-    2: { width: 200 },
-  },
   rows: {
-    len: 80,
-    0: {
-      cells: {
-        1: {
-          text: '',
-          type: 'date',
-        },
-      },
-    },
     1: {
       cells: {
-        0: { text: 'testingtesttestetst' },
+        0: {
+          text: 'testingtesttestetst',
+        },
         2: {
           text: 'testing',
           type: 'radio',
@@ -53,7 +42,9 @@ const EXTEND_DATA = {
           text: 'render',
           style: 0,
         },
-        1: { text: 'Hello' },
+        1: {
+          text: 'Hello',
+        },
         2: {
           text: 'haha',
           merge: [1, 1],
@@ -65,33 +56,157 @@ const EXTEND_DATA = {
         },
       },
     },
-    6: {
-      cells: {
-        2: {
-          text: '',
-          type: 'date',
-        },
-      },
-    },
-    7: {
-      cells: {
-        2: {
-          text: '',
-          type: 'date',
-        },
-      },
-    },
     8: {
       cells: {
         1: {
           text: '',
           type: 'select',
         },
-        3: {
-          text: '',
+      },
+    },
+    10: {
+      cells: {
+        2: {
           type: 'date',
         },
       },
     },
+    11: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    12: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    13: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    14: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+        3: {
+          text: 'cell-text',
+        },
+      },
+    },
+    15: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    16: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+        3: {
+          text: '4',
+        },
+      },
+    },
+    17: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    18: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    19: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    20: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    21: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    22: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    23: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    24: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    25: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    26: {
+      cells: {
+        2: {
+          type: 'date',
+        },
+      },
+    },
+    len: 80,
   },
+  cols: {
+    2: {
+      width: 200,
+    },
+    len: 10,
+  },
+  validations: [
+    {
+      refs: ['C11:C27'],
+      mode: 'cell',
+      type: 'date',
+      required: false,
+      operator: 't',
+      value: '',
+    },
+  ],
+  autofilter: {},
+  extra: {},
 };
