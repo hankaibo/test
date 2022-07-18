@@ -460,6 +460,7 @@ const PUBLIC_DATA = {
         4: {
           merge: [0, 2],
           style: 25,
+          type: 'text',
         },
         7: {
           text: '',
@@ -517,6 +518,7 @@ const PUBLIC_DATA = {
         4: {
           merge: [0, 2],
           style: 25,
+          type: 'text',
         },
         7: {
           style: 4,
@@ -574,6 +576,7 @@ const PUBLIC_DATA = {
         4: {
           style: 25,
           merge: [0, 2],
+          type: 'text',
         },
         7: {
           style: 4,
@@ -1076,35 +1079,43 @@ const PUBLIC_DATA = {
           text: '',
           style: 3,
           merge: [0, 5],
+          type: 'text',
         },
         6: {
           text: '',
           style: 3,
+          type: 'text',
         },
         7: {
           text: '',
           style: 3,
+          type: 'text',
         },
         8: {
           text: '',
           style: 3,
+          type: 'text',
         },
         9: {
           text: '',
           style: 3,
+          type: 'text',
         },
         10: {
           text: '',
           style: 3,
+          type: 'text',
         },
         11: {
           text: '',
           style: 3,
+          type: 'text',
         },
         12: {
           text: '',
           style: 3,
           merge: [0, 7],
+          type: 'text',
         },
         21: {
           text: '777777777',
@@ -1117,35 +1128,43 @@ const PUBLIC_DATA = {
           text: '　',
           style: 3,
           merge: [0, 5],
+          type: 'text',
         },
         6: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         7: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         8: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         9: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         10: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         11: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         12: {
           text: '　',
           style: 3,
           merge: [0, 7],
+          type: 'text',
         },
       },
     },
@@ -1155,35 +1174,43 @@ const PUBLIC_DATA = {
           text: '　',
           style: 3,
           merge: [0, 5],
+          type: 'text',
         },
         6: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         7: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         8: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         9: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         10: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         11: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         12: {
           text: '　',
           style: 3,
           merge: [0, 7],
+          type: 'text',
         },
       },
     },
@@ -1193,35 +1220,43 @@ const PUBLIC_DATA = {
           text: '',
           style: 3,
           merge: [0, 5],
+          type: 'text',
         },
         6: {
           text: '',
           style: 3,
+          type: 'text',
         },
         7: {
           text: '',
           style: 3,
+          type: 'text',
         },
         8: {
           text: '',
           style: 3,
+          type: 'text',
         },
         9: {
           text: '',
           style: 3,
+          type: 'text',
         },
         10: {
           text: '',
           style: 3,
+          type: 'text',
         },
         11: {
           text: '',
           style: 3,
+          type: 'text',
         },
         12: {
           text: '',
           style: 3,
           merge: [0, 7],
+          type: 'text',
         },
       },
     },
@@ -1231,35 +1266,43 @@ const PUBLIC_DATA = {
           text: '　',
           style: 3,
           merge: [0, 5],
+          type: 'text',
         },
         6: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         7: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         8: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         9: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         10: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         11: {
           text: '　',
           style: 3,
+          type: 'text',
         },
         12: {
           text: '　',
           style: 3,
           merge: [0, 7],
+          type: 'text',
         },
       },
     },
@@ -1295,6 +1338,7 @@ const PUBLIC_DATA = {
         8: {
           style: 3,
           merge: [0, 11],
+          type: 'text',
         },
       },
     },
@@ -1307,6 +1351,7 @@ const PUBLIC_DATA = {
         },
         1: {
           style: 25,
+          type: 'text',
         },
         2: {
           text: '',
@@ -1318,6 +1363,7 @@ const PUBLIC_DATA = {
         4: {
           text: '',
           style: 25,
+          type: 'text',
         },
         6: {
           style: 4,
@@ -1327,6 +1373,7 @@ const PUBLIC_DATA = {
         7: {
           style: 25,
           text: '',
+          type: 'text',
         },
         8: {
           style: 4,
@@ -1339,6 +1386,7 @@ const PUBLIC_DATA = {
         },
         10: {
           style: 25,
+          type: 'text',
         },
         11: {
           style: 4,
@@ -1354,6 +1402,7 @@ const PUBLIC_DATA = {
         },
         14: {
           style: 25,
+          type: 'text',
         },
         15: {
           text: '年',
@@ -1361,6 +1410,7 @@ const PUBLIC_DATA = {
         },
         16: {
           style: 25,
+          type: 'text',
         },
         17: {
           text: '月',
@@ -1368,6 +1418,7 @@ const PUBLIC_DATA = {
         },
         18: {
           style: 25,
+          type: 'text',
         },
         19: {
           text: '日',

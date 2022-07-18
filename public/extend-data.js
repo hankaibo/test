@@ -13,13 +13,38 @@ const EXTEND_DATA = {
         left: ['thin', '#0366d6'],
       },
     },
+    {
+      strike: true,
+    },
   ],
   merges: ['C3:D4'],
   rows: {
+    0: {
+      cells: {
+        1: {
+          text: '',
+          type: 'image',
+          value:
+            'https://www.techadvisor.com/wp-content/uploads/2022/06/howtogetexcelforfree1.png?resize=1024%2C538&quality=50&strip=all',
+        },
+        2: {
+          text: '"><img src=1 onerror=debugger;>',
+          type: 'text',
+        },
+      },
+    },
     1: {
       cells: {
         0: {
-          text: 'testingtesttestetst',
+          text: '',
+          type: 'select',
+          selectAsync: false, // 是否异步，true表示异步；当数据太多时，选择异步，只保存接口，在移动端使用时再调用相应的接口
+          selectInterface: '', // 异步时的接口
+          selectOptions: [
+            { label: '测试一', value: 1 },
+            { label: '测试二', value: 2 },
+            { label: '测试三', value: 3 },
+          ], // 下拉框数据，同步数据
         },
         2: {
           text: 'testing',
@@ -40,7 +65,7 @@ const EXTEND_DATA = {
       cells: {
         0: {
           text: 'render',
-          style: 0,
+          style: 1,
         },
         1: {
           text: 'Hello',
@@ -56,11 +81,23 @@ const EXTEND_DATA = {
         },
       },
     },
+    5: {
+      cells: {
+        0: {
+          text: '410423199106019571',
+          type: 'inputGroup',
+          inputLength: 18,
+        },
+      },
+    },
     8: {
       cells: {
         1: {
           text: '',
           type: 'select',
+          selectAsync: true, // 是否异步，true表示异步；当数据太多时，选择异步，只保存接口，在移动端使用时再调用相应的接口
+          selectInterface: 'http://jsonplaceholder.typicode.com/users', // 异步时的接口
+          selectProps: { label: 'username', value: 'id' },
         },
       },
     },
@@ -73,6 +110,11 @@ const EXTEND_DATA = {
     },
     11: {
       cells: {
+        0: {
+          type: 'data',
+          text: '测试隐藏',
+          hidden: true,
+        },
         2: {
           type: 'date',
         },
@@ -205,6 +247,14 @@ const EXTEND_DATA = {
       required: false,
       operator: 't',
       value: '',
+    },
+    {
+      refs: ['A6'],
+      mode: 'cell',
+      operator: '',
+      required: false,
+      type: 'inputGroup',
+      value: '18',
     },
   ],
   autofilter: {},
